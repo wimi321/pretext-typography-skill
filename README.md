@@ -41,7 +41,7 @@ Use `$pretext-typography` when building:
 Install this repository as a Codex skill by placing it under your skills directory:
 
 ```sh
-git clone <your-github-url> "$CODEX_HOME/skills/pretext-typography"
+git clone https://github.com/wimi321/pretext-typography-skill.git "$CODEX_HOME/skills/pretext-typography"
 ```
 
 Or symlink it during local iteration:

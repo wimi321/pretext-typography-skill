@@ -43,7 +43,7 @@
 把仓库放到你的 Codex skills 目录里：
 
 ```sh
-git clone <你的-github-仓库地址> "$CODEX_HOME/skills/pretext-typography"
+git clone https://github.com/wimi321/pretext-typography-skill.git "$CODEX_HOME/skills/pretext-typography"
 ```
 
 本地开发阶段也可以直接软链接：
