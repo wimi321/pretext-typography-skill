@@ -13,9 +13,15 @@ const requiredFiles = [
   'references/multilingual-typography.md',
   'assets/icon-small.svg',
   'assets/icon-large.svg',
+  'assets/previews/social-preview.svg',
   'assets/templates/balanced-headline/index.ts',
   'assets/templates/editorial-engine/index.ts',
   'assets/templates/chat-bubbles/index.ts',
+  'showcase/index.html',
+  'showcase/styles.css',
+  'showcase/app.js',
+  'showcase/README.md',
+  'scripts/serve-showcase.mjs',
 ]
 
 for (const relativePath of requiredFiles) {

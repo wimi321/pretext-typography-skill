@@ -2,6 +2,8 @@
 
 Codex skill for production-grade typography and text layout powered by [Pretext](https://github.com/chenglou/pretext).
 
+![Pretext Typography social preview](./assets/previews/social-preview.svg)
+
 [简体中文说明](./README.zh-CN.md)
 
 ## Why This Exists
@@ -21,7 +23,9 @@ This repository packages those workflows into a top-level skill that can be inst
 - `SKILL.md`: a triggerable skill focused on high-end web typography
 - `references/`: concise guidance for API selection, layout patterns, and multilingual QA
 - `assets/templates/`: starter templates for common Pretext-driven UI patterns
+- `showcase/`: a polished browser demo for the repo
 - `scripts/scaffold-template.mjs`: copies a starter template into a target directory
+- `scripts/serve-showcase.mjs`: local static server for previewing the showcase
 - `agents/openai.yaml`: UI metadata for skill pickers and chips
 - `.github/workflows/validate.yml`: lightweight CI validation for the repo structure
 
@@ -99,6 +103,22 @@ npm install @chenglou/pretext
 
 This skill does not replace Pretext. It makes Pretext easier to apply well.
 
+## Showcase
+
+Run the interactive static demo:
+
+```sh
+npm run showcase
+```
+
+Then open `http://127.0.0.1:4173/showcase/`.
+
+The showcase demonstrates:
+
+- balanced headline fitting
+- exact bubble height prediction
+- editorial line flow around obstacles
+
 ## Repository Layout
 
 ```text
@@ -108,7 +128,9 @@ This skill does not replace Pretext. It makes Pretext easier to apply well.
 ├── assets/
 │   ├── icon-large.svg
 │   ├── icon-small.svg
+│   ├── previews/
 │   └── templates/
+├── showcase/
 ├── references/
 └── scripts/
 ```
@@ -118,6 +140,10 @@ This skill does not replace Pretext. It makes Pretext easier to apply well.
 ```sh
 npm run validate
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Design Direction
 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pretext Typography Showcase</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Codex Skill + Pretext</p>
+          <h1 id="headline"></h1>
+          <p class="lede">
+            A showcase for balanced headlines, exact bubble sizing, and editorial obstacle flow powered by
+            Pretext.
+          </p>
+          <div class="hero-actions">
+            <a href="https://github.com/wimi321/pretext-typography-skill" target="_blank" rel="noreferrer">View Repository</a>
+            <a href="../README.md">Read the Docs</a>
+          </div>
+        </div>
+        <div class="hero-preview">
+          <div class="bubble-stack" id="bubble-stack"></div>
+        </div>
+      </header>
+
+      <main class="grid">
+        <section class="panel panel-editorial">
+          <div class="panel-heading">
+            <p class="eyebrow">Pattern 1</p>
+            <h2>Editorial Flow</h2>
+          </div>
+          <div class="editorial-stage">
+            <div class="obstacle obstacle-one"></div>
+            <div class="obstacle obstacle-two"></div>
+            <div id="editorial-lines" class="editorial-lines"></div>
+          </div>
+        </section>
+
+        <section class="panel panel-code">
+          <div class="panel-heading">
+            <p class="eyebrow">Pattern 2</p>
+            <h2>Practical API Mapping</h2>
+          </div>
+          <div class="api-map">
+            <article>
+              <h3>Measure height</h3>
+              <p><code>prepare()</code> + <code>layout()</code></p>
+            </article>
+            <article>
+              <h3>Render lines</h3>
+              <p><code>prepareWithSegments()</code> + <code>layoutWithLines()</code></p>
+            </article>
+            <article>
+              <h3>Shape text flow</h3>
+              <p><code>layoutNextLine()</code></p>
+            </article>
+            <article>
+              <h3>Tight fit width search</h3>
+              <p><code>walkLineRanges()</code></p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

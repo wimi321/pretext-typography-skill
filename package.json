@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "showcase": "node scripts/serve-showcase.mjs",
     "validate": "node scripts/validate-skill.mjs",
     "scaffold": "node scripts/scaffold-template.mjs"
   },

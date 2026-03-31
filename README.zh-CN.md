@@ -2,6 +2,8 @@
 
 一个面向 Codex 的高级排版 skill，底层能力来自 [Pretext](https://github.com/chenglou/pretext)。
 
+![Pretext Typography social preview](./assets/previews/social-preview.svg)
+
 [English README](./README.md)
 
 ## 这个仓库解决什么问题
@@ -34,7 +36,9 @@
 - `SKILL.md`：真正给 Codex 用的 skill 入口
 - `references/`：API 选型、排版模式、多语言 QA 要点
 - `assets/templates/`：三个可复用模板
+- `showcase/`：可直接打开浏览的演示页
 - `scripts/scaffold-template.mjs`：把模板复制到目标目录
+- `scripts/serve-showcase.mjs`：本地预览 showcase 的静态服务
 - `agents/openai.yaml`：技能元数据
 - `.github/workflows/validate.yml`：GitHub CI 校验
 
@@ -110,11 +114,31 @@ npm install @chenglou/pretext
 
 这个 skill 不是替代 Pretext，而是把 Pretext 变得更容易被正确使用。
 
+## Showcase 演示
+
+运行本地演示页：
+
+```sh
+npm run showcase
+```
+
+然后打开 `http://127.0.0.1:4173/showcase/`。
+
+这个页面演示了三类核心能力：
+
+- 标题平衡排版
+- 聊天气泡的精确高度预测
+- 绕障碍物的 editorial 流式排版
+
 ## 本地校验
 
 ```sh
 npm run validate
 ```
+
+## 贡献
+
+见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
 ## 致谢
 

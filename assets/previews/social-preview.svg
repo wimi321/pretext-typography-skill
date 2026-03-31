@@ -1,0 +1,22 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#EFE3D2"/>
+  <rect x="48" y="44" width="1184" height="552" rx="36" fill="#FFF9F2" stroke="#E3CBAE" stroke-width="4"/>
+  <rect x="88" y="92" width="596" height="456" rx="28" fill="#F7EEE1"/>
+  <text x="104" y="144" fill="#C75C2A" font-size="18" font-family="Helvetica, Arial, sans-serif" letter-spacing="4">CODEX SKILL + PRETEXT</text>
+  <text x="104" y="218" fill="#191512" font-size="68" font-family="Georgia, 'Times New Roman', serif">Advanced</text>
+  <text x="104" y="282" fill="#191512" font-size="68" font-family="Georgia, 'Times New Roman', serif">Typography</text>
+  <text x="104" y="346" fill="#191512" font-size="68" font-family="Georgia, 'Times New Roman', serif">Workflows</text>
+  <text x="104" y="410" fill="#6C6157" font-size="26" font-family="Helvetica, Arial, sans-serif">Balanced headlines. Editorial flow. Exact multiline sizing.</text>
+  <rect x="752" y="102" width="434" height="194" rx="28" fill="#FFFFFF" stroke="#E8D8C1"/>
+  <rect x="784" y="140" width="296" height="18" rx="9" fill="#191512"/>
+  <rect x="784" y="172" width="256" height="14" rx="7" fill="#C75C2A"/>
+  <rect x="784" y="200" width="320" height="12" rx="6" fill="#191512" fill-opacity="0.75"/>
+  <rect x="784" y="226" width="220" height="12" rx="6" fill="#191512" fill-opacity="0.44"/>
+  <circle cx="1062" cy="194" r="54" fill="#C75C2A" fill-opacity="0.14"/>
+  <rect x="752" y="326" width="246" height="74" rx="28" fill="#FFFFFF" stroke="#E8D8C1"/>
+  <rect x="790" y="352" width="168" height="12" rx="6" fill="#191512" fill-opacity="0.78"/>
+  <rect x="790" y="376" width="132" height="12" rx="6" fill="#191512" fill-opacity="0.46"/>
+  <rect x="916" y="420" width="236" height="96" rx="28" fill="#F4DED2" stroke="#E2B8A2"/>
+  <rect x="952" y="450" width="154" height="12" rx="6" fill="#191512" fill-opacity="0.82"/>
+  <rect x="952" y="474" width="126" height="12" rx="6" fill="#191512" fill-opacity="0.46"/>
+</svg>
