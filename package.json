@@ -1,0 +1,13 @@
+{
+  "name": "pretext-typography-skill",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-skill.mjs",
+    "scaffold": "node scripts/scaffold-template.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

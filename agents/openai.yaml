@@ -1,0 +1,10 @@
+interface:
+  display_name: "Pretext Typography"
+  short_description: "Build advanced multilingual text layout with Pretext."
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.svg"
+  brand_color: "#C75C2A"
+  default_prompt: "Use $pretext-typography to implement a polished multilingual text layout with Pretext."
+
+policy:
+  allow_implicit_invocation: true
